@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: rgb(2, 191, 238);
+}
+.btn {
+    background-color: rgb(245, 146, 16);
+    color: darkblue;
+    margin-left: 3em;
+}
+.edit{
+    background-color: chartreuse;
+    color: darkgreen;
+    margin-left: 0.4em;
+    
+}
+#todo-item{
+    
+ width: 30%;  
+height: 2em;
+    
+}
+.dlbtn{
+    background-color: crimson;
+}
+.addbtn{
+    background-color: rgb(235, 220, 18);
+}
+.header{
+    color: darkred;
+    font-size: 2.5em;
+}

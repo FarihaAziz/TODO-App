@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1 class="header">TODO App</h1>
+    <div>
+        <input placeholder="What do you want to do" type="text" id="todo-item">
+        <button class="addbtn" onclick="addTodo()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        <button  class=dlbtn onclick="deleteAll()">DELETE ALL</button>
+    </div>
+ 
+    <div>
+        <ul id="list">
+          
+        </ul>
+    </div> 
+
+     
+</body>
+<script src="app.js"></script>
+</html>
